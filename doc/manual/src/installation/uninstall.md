@@ -5,7 +5,7 @@
 If you have a [single-user installation](./installing-binary.md#single-user-installation) of Nix, uninstall it by running:
 
 ```console
-$ rm -rf /nix
+$ sudo rm -rf /nix ~/.nix-defexpr ~/.nix-channels ~/.nix-profile
 ```
 
 ## Multi User
